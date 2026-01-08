@@ -1,0 +1,47 @@
+2026-01-06 15:35:43,670 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-06 15:41:51,397 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-06 15:45:39,507 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-07 00:43:23,444 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-07 01:12:59,186 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 01:32:42,096 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 01:38:34,172 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 01:41:59,928 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 01:44:42,848 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 01:45:28,182 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 01:48:01,743 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 01:48:41,457 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-07 01:48:49,457 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv38/conv_op, using max shift instead. delta=0.1255
+2026-01-07 01:48:49,521 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv38/conv_op, using max shift instead. delta=0.0628
+2026-01-07 01:48:49,983 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv56/conv_op, using max shift instead. delta=0.1754
+2026-01-07 01:48:50,012 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv56/conv_op, using max shift instead. delta=0.0877
+2026-01-07 02:04:23,704 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 02:05:02,934 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-07 02:05:10,717 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv38/conv_op, using max shift instead. delta=0.1255
+2026-01-07 02:05:10,782 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv38/conv_op, using max shift instead. delta=0.0628
+2026-01-07 02:05:11,215 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv56/conv_op, using max shift instead. delta=0.1754
+2026-01-07 02:05:11,245 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv56/conv_op, using max shift instead. delta=0.0877
+2026-01-07 02:17:02,009 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 02:17:41,378 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-07 02:17:49,586 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv38/conv_op, using max shift instead. delta=0.1255
+2026-01-07 02:17:49,653 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv38/conv_op, using max shift instead. delta=0.0628
+2026-01-07 02:17:50,155 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv56/conv_op, using max shift instead. delta=0.1754
+2026-01-07 02:17:50,183 - INFO - conv_stripped_op.py:633 - No shifts available for layer savor_v1/conv56/conv_op, using max shift instead. delta=0.0877
+2026-01-07 02:48:44,811 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 02:59:27,416 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 03:02:07,274 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 03:06:06,709 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 03:30:08,009 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 03:30:43,283 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-07 03:34:06,130 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 03:34:38,719 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-07 03:39:31,215 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 03:40:04,819 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-07 04:02:50,705 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 04:04:35,107 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 04:18:53,480 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 04:19:27,999 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-07 15:54:04,311 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 15:55:05,705 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 15:56:22,376 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-07 18:32:36,024 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
+2026-01-07 18:33:11,307 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op

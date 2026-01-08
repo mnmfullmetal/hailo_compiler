@@ -1,0 +1,31 @@
+[2026-01-07 18:33:39.857] [default] [info] Ran from command: "compile_hef.py"
+[2026-01-07 18:33:39.858] [default] [info] Loading network parameters
+[2026-01-07 18:33:39.993] [default] [info] [1;36mStarting Hailo allocation and compilation flow[0m
+[2026-01-07 18:33:40.016] [default] [info] Model name: savor_v1
+[2026-01-07 18:33:40.054] [default] [info] Building optimization options for network layers...
+[2026-01-07 18:33:43.829] [default] [info] Successfully built optimization options - 3s 775ms
+[2026-01-07 18:33:43.839] [default] [info] Trying to compile the network in a single context
+[2026-01-07 18:33:43.839] [default] [info] Trying to solve in single context
+[2026-01-07 18:33:43.855] [default] [info] Single context flow failed: Recoverable single context error
+[2026-01-07 18:33:43.865] [default] [info] Building optimization options for network layers...
+[2026-01-07 18:33:48.551] [default] [info] Successfully built optimization options - 4s 686ms
+[2026-01-07 18:33:48.568] [default] [info] Post update resources utilization[Step - 1]: control=0.9, compute=0.9, compute_16bit=0.9, memory=0.85
+[2026-01-07 18:33:48.576] [default] [info] Building optimization options for network layers...
+[2026-01-07 18:33:53.304] [default] [info] Successfully built optimization options - 4s 727ms
+[2026-01-07 18:33:53.324] [default] [info] Post update resources utilization[Step - 2]: control=0.8, compute=0.8, compute_16bit=0.8, memory=0.8
+[2026-01-07 18:33:53.333] [default] [info] Building optimization options for network layers...
+[2026-01-07 18:33:59.193] [default] [info] Successfully built optimization options - 5s 860ms
+[2026-01-07 18:33:59.214] [default] [info] Post update resources utilization[Step - 3]: control=0.7, compute=0.7, compute_16bit=0.7, memory=0.7
+[2026-01-07 18:33:59.223] [default] [info] Building optimization options for network layers...
+[2026-01-07 18:34:04.021] [default] [info] Successfully built optimization options - 4s 798ms
+[2026-01-07 18:34:04.042] [default] [info] Post update resources utilization[Step - 4]: control=0.6, compute=0.6, compute_16bit=0.6, memory=0.6
+[2026-01-07 18:34:04.052] [default] [info] Building optimization options for network layers...
+[2026-01-07 18:34:08.870] [default] [info] Successfully built optimization options - 4s 818ms
+[2026-01-07 18:34:08.893] [default] [info] Performance Flow Summary
++========+==============+=============+==========+=====+========+
+| Iter-# | Control Util | Memory Util | Contexts | FPS | Status |
++--------+--------------+-------------+----------+-----+--------+
+
+[2026-01-07 18:34:08.902] [default] [info] [1;41mMapping Failed (allocation time: 4s)[0m
+[2026-01-07 18:34:08.903] [default] [info] Builder fail with status 94: No valid partition found
+[2026-01-07 18:34:08.903] [default] [info] No valid partition found

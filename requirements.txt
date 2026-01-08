@@ -1,0 +1,8 @@
+ultralytics>=8.3.0
+onnx>=1.14.0
+onnx-simplifier>=0.4.33
+
+opencv-python>=4.8.0
+numpy>=1.23.5
+
+netron
