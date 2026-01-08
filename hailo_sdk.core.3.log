@@ -1,0 +1,9 @@
+[2026-01-07 03:40:35.955] [default] [info] Ran from command: "compile_hef.py"
+[2026-01-07 03:40:35.956] [default] [info] Loading network parameters
+[2026-01-07 03:40:36.082] [default] [info] [1;36mStarting Hailo allocation and compilation flow[0m
+[2026-01-07 03:40:36.101] [default] [info] Model name: savor_v1
+[2026-01-07 03:40:36.128] [default] [info] Building optimization options for network layers...
+[2026-01-07 03:40:39.919] [default] [info] Successfully built optimization options - 3s 790ms
+[2026-01-07 03:40:39.926] [default] [info] [1;41mMapping Failed (allocation time: 3s)[0m
+[2026-01-07 03:40:39.941] [default] [info] Builder fail with status 94: Performance Flow requires automatic resource utilization
+[2026-01-07 03:40:39.941] [default] [info] Performance Flow requires automatic resource utilization

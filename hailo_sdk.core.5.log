@@ -1,0 +1,18 @@
+[2026-01-07 03:31:12.164] [default] [info] Ran from command: "compile_hef.py"
+[2026-01-07 03:31:12.166] [default] [info] Loading network parameters
+[2026-01-07 03:31:12.287] [default] [info] [1;36mStarting Hailo allocation and compilation flow[0m
+[2026-01-07 03:31:12.308] [default] [info] Model name: savor_v1
+[2026-01-07 03:31:12.342] [default] [info] Building optimization options for network layers...
+[2026-01-07 03:31:15.977] [default] [info] Successfully built optimization options - 3s 635ms
+[2026-01-07 03:31:15.980] [default] [info] Trying to compile the network in a single context
+[2026-01-07 03:31:15.980] [default] [info] Trying to solve in single context
+[2026-01-07 03:31:15.996] [default] [info] Single context flow failed: Recoverable single context error
+[2026-01-07 03:31:16.004] [default] [info] Building optimization options for network layers...
+[2026-01-07 03:31:20.695] [default] [info] Successfully built optimization options - 4s 691ms
+[2026-01-07 03:31:20.723] [default] [info] [1;41mMapping Failed (allocation time: 4s)[0m
+[2026-01-07 03:31:20.724] [default] [info] Builder fail with status 110: No successful assignments: concat22 errors:
+	Agent infeasible
+
+[2026-01-07 03:31:20.724] [default] [info] No successful assignments: concat22 errors:
+	Agent infeasible
+

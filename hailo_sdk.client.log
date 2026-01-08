@@ -1,0 +1,448 @@
+2026-01-06 16:17:29,078 - WARNING - __init__.py:56 - Cannot use graphviz, so no visualizations will be created
+2026-01-06 16:17:29,080 - INFO - __init__.py:84 - First time Hailo Dataflow Compiler is being used. Checking system requirements... (this might take a few seconds)
+2026-01-07 01:13:04,678 - INFO - __init__.py:84 - First time Hailo Dataflow Compiler is being used. Checking system requirements... (this might take a few seconds)
+2026-01-07 01:32:55,745 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 01:32:56,085 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.34)
+2026-01-07 01:32:56,683 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.94)
+2026-01-07 01:32:59,051 - INFO - parser.py:274 - Simplified ONNX model for a parsing retry attempt (completion time: 00:00:03.31)
+2026-01-07 01:38:47,890 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 01:38:48,228 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.34)
+2026-01-07 01:38:48,862 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.97)
+2026-01-07 01:38:51,198 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 01:38:51,199 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 01:38:51,382 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:03.49)
+2026-01-07 01:38:51,384 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 01:38:53,114 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 01:38:54,236 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 01:38:54,764 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 01:42:05,488 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 01:42:05,645 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.16)
+2026-01-07 01:42:05,957 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.47)
+2026-01-07 01:42:07,107 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 01:42:07,107 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 01:42:07,184 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:01.70)
+2026-01-07 01:42:07,186 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 01:42:08,007 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 01:42:08,506 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 01:42:08,747 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 01:44:48,107 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 01:44:48,247 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.14)
+2026-01-07 01:44:48,543 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.44)
+2026-01-07 01:44:49,555 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 01:44:49,555 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 01:44:49,623 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:01.52)
+2026-01-07 01:44:49,624 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 01:44:50,329 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 01:44:50,789 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 01:44:51,006 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 01:45:30,948 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 01:45:31,060 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.11)
+2026-01-07 01:45:31,325 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.38)
+2026-01-07 01:45:32,236 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 01:45:32,236 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 01:45:32,299 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:01.35)
+2026-01-07 01:45:32,300 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 01:45:32,973 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 01:45:33,420 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 01:45:33,641 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 01:45:33,751 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 01:45:33,751 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 01:45:33,752 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 01:45:36,388 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 01:45:36,475 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 01:45:36,865 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.39)
+2026-01-07 01:45:37,168 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 01:45:37,682 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 01:48:05,013 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 01:48:05,149 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.14)
+2026-01-07 01:48:05,458 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.45)
+2026-01-07 01:48:06,529 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 01:48:06,529 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 01:48:06,598 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:01.58)
+2026-01-07 01:48:06,599 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 01:48:07,431 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 01:48:07,870 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 01:48:08,093 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 01:48:08,205 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 01:48:08,206 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 01:48:08,207 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 01:48:10,939 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 01:48:11,045 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 01:48:11,460 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.41)
+2026-01-07 01:48:11,790 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 01:48:12,361 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 01:48:12,365 - INFO - stats_collection.py:89 - Using dataset with 33 entries for calibration
+2026-01-07 01:48:38,810 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:26.44)
+2026-01-07 01:48:40,203 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-07 01:48:40,204 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-07 01:48:40,204 - INFO - algorithm_base.py:152 - Starting Matmul Equalization
+2026-01-07 01:48:40,239 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Matmul Equalization is done (completion time is 00:00:00.03)
+2026-01-07 01:48:40,240 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-07 01:48:40,240 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-07 01:48:59,820 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-07 01:48:59,822 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-07 01:48:59,832 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-07 01:48:59,836 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-07 01:49:08,076 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-07 01:49:14,540 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-07 01:49:14,576 - INFO - hailo_tools_runner.py:510 - To achieve optimal performance, set the compiler_optimization_level to "max" by adding performance_param(compiler_optimization_level=max) to the model script. Note that this may increase compilation time.
+2026-01-07 01:49:28,937 - ERROR - hailo_tools_runner.py:582 - Failed to produce compiled graph
+2026-01-07 01:49:28,942 - ERROR - hailo_tools_runner.py:231 - BackendAllocatorException: Compilation failed: No successful assignments: concat22 errors:
+	Agent infeasible
+
+2026-01-07 02:04:28,298 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 02:04:28,436 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.14)
+2026-01-07 02:04:28,722 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.42)
+2026-01-07 02:04:29,699 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 02:04:29,699 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 02:04:29,767 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:01.47)
+2026-01-07 02:04:29,768 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 02:04:30,468 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 02:04:30,468 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 02:04:30,472 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 02:04:30,922 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 02:04:31,147 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 02:04:31,248 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 02:04:31,248 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 02:04:31,249 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 02:04:33,945 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 02:04:34,039 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 02:04:34,444 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.40)
+2026-01-07 02:04:34,764 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 02:04:35,322 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 02:04:35,326 - INFO - stats_collection.py:89 - Using dataset with 33 entries for calibration
+2026-01-07 02:05:00,484 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:25.16)
+2026-01-07 02:05:01,773 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-07 02:05:01,774 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-07 02:05:01,774 - INFO - algorithm_base.py:152 - Starting Matmul Equalization
+2026-01-07 02:05:01,802 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Matmul Equalization is done (completion time is 00:00:00.03)
+2026-01-07 02:05:01,802 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-07 02:05:01,803 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-07 02:05:19,338 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-07 02:05:19,348 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-07 02:05:19,357 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-07 02:05:19,363 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-07 02:05:26,958 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-07 02:05:33,390 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-07 02:06:21,616 - ERROR - hailo_tools_runner.py:582 - Failed to produce compiled graph
+2026-01-07 02:06:21,620 - ERROR - hailo_tools_runner.py:231 - BackendAllocatorException: Compilation failed: No valid partition found
+2026-01-07 02:17:06,689 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 02:17:06,824 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.14)
+2026-01-07 02:17:07,107 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.42)
+2026-01-07 02:17:08,050 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 02:17:08,050 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 02:17:08,111 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:01.42)
+2026-01-07 02:17:08,112 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 02:17:08,795 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 02:17:09,272 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 02:17:09,494 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 02:17:09,596 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 02:17:09,596 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 02:17:09,596 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 02:17:12,141 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 02:17:12,226 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 02:17:12,600 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.37)
+2026-01-07 02:17:12,899 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 02:17:13,394 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 02:17:13,398 - INFO - stats_collection.py:89 - Using dataset with 33 entries for calibration
+2026-01-07 02:17:38,817 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:25.42)
+2026-01-07 02:17:40,155 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-07 02:17:40,155 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-07 02:17:40,155 - INFO - algorithm_base.py:152 - Starting Matmul Equalization
+2026-01-07 02:17:40,179 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Matmul Equalization is done (completion time is 00:00:00.02)
+2026-01-07 02:17:40,180 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-07 02:17:40,180 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-07 02:17:58,887 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-07 02:17:58,888 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-07 02:17:58,898 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-07 02:17:58,903 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-07 02:18:06,843 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-07 02:18:14,029 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-07 02:18:14,063 - INFO - hailo_tools_runner.py:510 - To achieve optimal performance, set the compiler_optimization_level to "max" by adding performance_param(compiler_optimization_level=max) to the model script. Note that this may increase compilation time.
+2026-01-07 02:18:29,362 - ERROR - hailo_tools_runner.py:582 - Failed to produce compiled graph
+2026-01-07 02:18:29,367 - ERROR - hailo_tools_runner.py:231 - BackendAllocatorException: Compilation failed: No successful assignments: concat22 errors:
+	Agent infeasible
+
+2026-01-07 02:48:49,133 - INFO - main.py:34 - Current Time: 02:48:49, 01/07/26
+2026-01-07 02:48:50,142 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: Intel(R) Core(TM) i7-14650HX, Number Of Cores: 24, Utilization: 0.0%
+2026-01-07 02:48:50,143 - INFO - main.py:50 - Memory: Total: 15GB, Available: 12GB
+2026-01-07 02:48:50,144 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.167.4-microsoft-standard-WSL2
+2026-01-07 02:48:50,145 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-01-07 02:48:50,146 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-01-07 02:48:50,208 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-01-07 02:48:50,208 - INFO - main.py:109 - Running `hailo -h`
+2026-01-07 02:59:31,932 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 02:59:32,065 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.13)
+2026-01-07 02:59:32,337 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.41)
+2026-01-07 02:59:33,313 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 02:59:33,314 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 02:59:33,376 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:01.44)
+2026-01-07 02:59:33,377 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 02:59:34,077 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 02:59:34,525 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 02:59:34,740 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 02:59:34,847 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 02:59:34,848 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 02:59:34,848 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 02:59:37,477 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 02:59:37,565 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 02:59:37,949 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.38)
+2026-01-07 02:59:38,262 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 02:59:38,773 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 03:02:11,706 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 03:02:11,839 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.13)
+2026-01-07 03:02:12,119 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.41)
+2026-01-07 03:02:12,436 - WARNING - parser.py:314 - ONNX shape inference failed: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running Reshape node. Name:'/model.10/m/m.0/attn/Reshape' Status Message: /onnxruntime_src/onnxruntime/core/providers/cpu/tensor/reshape_helper.h:45 onnxruntime::ReshapeHelper::ReshapeHelper(const onnxruntime::TensorShape&, onnxruntime::TensorShapeVector&, bool) input_shape_size == size was false. The input tensor cannot be reshaped to the requested shape. Input shape:{1,512,16,16}, requested shape:{1,4,128,400}
+
+2026-01-07 03:02:12,791 - INFO - parser.py:274 - Simplified ONNX model for a parsing retry attempt (completion time: 00:00:01.09)
+2026-01-07 03:02:13,047 - WARNING - parser.py:314 - ONNX shape inference failed: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running Reshape node. Name:'/model.10/m/m.0/attn/Reshape' Status Message: /onnxruntime_src/onnxruntime/core/providers/cpu/tensor/reshape_helper.h:45 onnxruntime::ReshapeHelper::ReshapeHelper(const onnxruntime::TensorShape&, onnxruntime::TensorShapeVector&, bool) input_shape_size == size was false. The input tensor cannot be reshaped to the requested shape. Input shape:{1,512,16,16}, requested shape:{1,4,128,400}
+
+2026-01-07 03:06:11,182 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 03:06:11,320 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.14)
+2026-01-07 03:06:11,598 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.42)
+2026-01-07 03:06:11,886 - WARNING - parser.py:314 - ONNX shape inference failed: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running Reshape node. Name:'/model.10/m/m.0/attn/Reshape' Status Message: /onnxruntime_src/onnxruntime/core/providers/cpu/tensor/reshape_helper.h:45 onnxruntime::ReshapeHelper::ReshapeHelper(const onnxruntime::TensorShape&, onnxruntime::TensorShapeVector&, bool) input_shape_size == size was false. The input tensor cannot be reshaped to the requested shape. Input shape:{1,512,16,16}, requested shape:{1,4,128,400}
+
+2026-01-07 03:06:12,246 - INFO - parser.py:274 - Simplified ONNX model for a parsing retry attempt (completion time: 00:00:01.06)
+2026-01-07 03:06:12,524 - WARNING - parser.py:314 - ONNX shape inference failed: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running Reshape node. Name:'/model.10/m/m.0/attn/Reshape' Status Message: /onnxruntime_src/onnxruntime/core/providers/cpu/tensor/reshape_helper.h:45 onnxruntime::ReshapeHelper::ReshapeHelper(const onnxruntime::TensorShape&, onnxruntime::TensorShapeVector&, bool) input_shape_size == size was false. The input tensor cannot be reshaped to the requested shape. Input shape:{1,512,16,16}, requested shape:{1,4,128,400}
+
+2026-01-07 03:30:12,633 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 03:30:12,679 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.05)
+2026-01-07 03:30:12,797 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.16)
+2026-01-07 03:30:13,552 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 03:30:13,552 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 03:30:13,615 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:00.98)
+2026-01-07 03:30:13,616 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 03:30:14,315 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 03:30:14,776 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 03:30:14,996 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 03:30:15,106 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 03:30:15,106 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 03:30:15,107 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 03:30:17,748 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 03:30:17,839 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 03:30:18,225 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.38)
+2026-01-07 03:30:18,527 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 03:30:19,038 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 03:30:19,042 - INFO - stats_collection.py:89 - Using dataset with 33 entries for calibration
+2026-01-07 03:30:41,143 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:22.10)
+2026-01-07 03:30:42,376 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-07 03:30:42,377 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-07 03:30:42,378 - INFO - algorithm_base.py:152 - Starting Matmul Equalization
+2026-01-07 03:30:42,411 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Matmul Equalization is done (completion time is 00:00:00.03)
+2026-01-07 03:30:42,412 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-07 03:30:42,412 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-07 03:30:58,406 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-07 03:30:58,407 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-07 03:30:58,418 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-07 03:30:58,423 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-07 03:31:05,932 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-07 03:31:11,925 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-07 03:31:11,967 - INFO - hailo_tools_runner.py:510 - To achieve optimal performance, set the compiler_optimization_level to "max" by adding performance_param(compiler_optimization_level=max) to the model script. Note that this may increase compilation time.
+2026-01-07 03:31:20,740 - ERROR - hailo_tools_runner.py:582 - Failed to produce compiled graph
+2026-01-07 03:31:20,741 - ERROR - hailo_tools_runner.py:231 - BackendAllocatorException: Compilation failed: No successful assignments: concat22 errors:
+	Agent infeasible
+
+2026-01-07 03:34:08,824 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 03:34:08,862 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.04)
+2026-01-07 03:34:08,973 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.15)
+2026-01-07 03:34:09,692 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 03:34:09,692 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 03:34:09,755 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:00.93)
+2026-01-07 03:34:09,756 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 03:34:10,438 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 03:34:10,439 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 03:34:10,444 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 03:34:10,857 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 03:34:11,069 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 03:34:11,168 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 03:34:11,169 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 03:34:11,169 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 03:34:13,597 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 03:34:13,680 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 03:34:14,048 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.37)
+2026-01-07 03:34:14,347 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 03:34:14,817 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 03:34:14,821 - INFO - stats_collection.py:89 - Using dataset with 33 entries for calibration
+2026-01-07 03:34:36,563 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:21.74)
+2026-01-07 03:34:37,811 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-07 03:34:37,811 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-07 03:34:37,812 - INFO - algorithm_base.py:152 - Starting Matmul Equalization
+2026-01-07 03:34:37,831 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Matmul Equalization is done (completion time is 00:00:00.02)
+2026-01-07 03:34:37,831 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-07 03:34:37,831 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-07 03:34:53,496 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-07 03:34:53,497 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-07 03:34:53,506 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-07 03:34:53,512 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-07 03:35:01,065 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-07 03:35:07,530 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-07 03:35:34,706 - ERROR - hailo_tools_runner.py:582 - Failed to produce compiled graph
+2026-01-07 03:35:34,708 - ERROR - hailo_tools_runner.py:231 - BackendAllocatorException: Compilation failed: No valid partition found
+2026-01-07 03:39:34,198 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 03:39:34,235 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.04)
+2026-01-07 03:39:34,346 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.15)
+2026-01-07 03:39:35,042 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 03:39:35,042 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 03:39:35,102 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:00.90)
+2026-01-07 03:39:35,103 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 03:39:35,747 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 03:39:35,748 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 03:39:35,753 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 03:39:36,174 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 03:39:36,395 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 03:39:36,488 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 03:39:36,488 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 03:39:36,489 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 03:39:38,879 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 03:39:38,965 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 03:39:39,338 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.37)
+2026-01-07 03:39:39,650 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 03:39:40,136 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 03:39:40,140 - INFO - stats_collection.py:89 - Using dataset with 33 entries for calibration
+2026-01-07 03:40:02,661 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:22.52)
+2026-01-07 03:40:03,916 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-07 03:40:03,917 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-07 03:40:03,917 - INFO - algorithm_base.py:152 - Starting Matmul Equalization
+2026-01-07 03:40:03,936 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Matmul Equalization is done (completion time is 00:00:00.02)
+2026-01-07 03:40:03,937 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-07 03:40:03,937 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-07 03:40:20,145 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-07 03:40:20,147 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-07 03:40:20,157 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-07 03:40:20,162 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-07 03:40:27,969 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-07 03:40:35,763 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-07 03:40:39,950 - ERROR - hailo_tools_runner.py:582 - Failed to produce compiled graph
+2026-01-07 03:40:39,952 - ERROR - hailo_tools_runner.py:231 - BackendAllocatorException: Compilation failed: Performance Flow requires automatic resource utilization
+2026-01-07 04:02:54,991 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 04:04:39,347 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 04:04:39,393 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.05)
+2026-01-07 04:04:39,513 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.17)
+2026-01-07 04:04:39,771 - WARNING - parser.py:314 - ONNX shape inference failed: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running Reshape node. Name:'/model.10/m/m.0/attn/Reshape' Status Message: /onnxruntime_src/onnxruntime/core/providers/cpu/tensor/reshape_helper.h:45 onnxruntime::ReshapeHelper::ReshapeHelper(const onnxruntime::TensorShape&, onnxruntime::TensorShapeVector&, bool) input_shape_size == size was false. The input tensor cannot be reshaped to the requested shape. Input shape:{1,256,16,16}, requested shape:{1,2,128,400}
+
+2026-01-07 04:04:39,998 - INFO - parser.py:274 - Simplified ONNX model for a parsing retry attempt (completion time: 00:00:00.65)
+2026-01-07 04:04:40,233 - WARNING - parser.py:314 - ONNX shape inference failed: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running Reshape node. Name:'/model.10/m/m.0/attn/Reshape' Status Message: /onnxruntime_src/onnxruntime/core/providers/cpu/tensor/reshape_helper.h:45 onnxruntime::ReshapeHelper::ReshapeHelper(const onnxruntime::TensorShape&, onnxruntime::TensorShapeVector&, bool) input_shape_size == size was false. The input tensor cannot be reshaped to the requested shape. Input shape:{1,256,16,16}, requested shape:{1,2,128,400}
+
+2026-01-07 04:18:57,997 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 04:18:58,045 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.05)
+2026-01-07 04:18:58,166 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.17)
+2026-01-07 04:18:58,844 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 04:18:58,844 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 04:18:58,911 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:00.91)
+2026-01-07 04:18:58,914 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 04:18:59,613 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 04:18:59,614 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 04:18:59,621 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 04:19:00,081 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 04:19:00,309 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 04:19:00,420 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 04:19:00,420 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 04:19:00,421 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 04:19:02,926 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 04:19:03,011 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 04:19:03,383 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.37)
+2026-01-07 04:19:03,698 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 04:19:04,176 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 04:19:04,180 - INFO - stats_collection.py:89 - Using dataset with 33 entries for calibration
+2026-01-07 04:19:25,844 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:21.66)
+2026-01-07 04:19:27,094 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-07 04:19:27,094 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-07 04:19:27,095 - INFO - algorithm_base.py:152 - Starting Matmul Equalization
+2026-01-07 04:19:27,122 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Matmul Equalization is done (completion time is 00:00:00.03)
+2026-01-07 04:19:27,122 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-07 04:19:27,123 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-07 04:19:45,676 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-07 04:19:45,678 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-07 04:19:45,686 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-07 04:19:45,691 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-07 04:19:52,885 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-07 04:19:58,825 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-07 04:31:59,657 - ERROR - hailo_tools_runner.py:582 - Failed to produce compiled graph
+2026-01-07 04:31:59,657 - ERROR - hailo_tools_runner.py:231 - KeyboardInterrupt: 
+2026-01-07 15:54:16,198 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 15:55:17,174 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 15:55:17,264 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.09)
+2026-01-07 15:55:17,539 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.36)
+2026-01-07 15:55:19,319 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 15:55:19,320 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 15:55:19,469 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:02.30)
+2026-01-07 15:55:19,471 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 15:55:21,151 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 15:55:21,151 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 15:55:21,160 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 15:55:22,217 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 15:55:22,747 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 15:55:23,003 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 15:55:23,003 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 15:55:23,005 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 15:55:28,473 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 15:55:28,685 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 15:55:29,598 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.91)
+2026-01-07 15:55:30,212 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 15:55:31,429 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 15:55:31,437 - INFO - stats_collection.py:89 - Using dataset with 33 entries for calibration
+2026-01-07 15:56:18,024 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:46.59)
+2026-01-07 15:56:20,445 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-07 15:56:20,447 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-07 15:56:20,448 - INFO - algorithm_base.py:152 - Starting Matmul Equalization
+2026-01-07 15:56:20,501 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Matmul Equalization is done (completion time is 00:00:00.05)
+2026-01-07 15:56:20,502 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-07 15:56:20,502 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-07 15:56:53,694 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-07 15:56:53,697 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-07 15:56:53,721 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-07 15:56:53,735 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-07 15:57:08,918 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-07 15:57:21,501 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-07 15:58:19,047 - ERROR - hailo_tools_runner.py:582 - Failed to produce compiled graph
+2026-01-07 15:58:19,050 - ERROR - hailo_tools_runner.py:231 - BackendAllocatorException: Compilation failed: No valid partition found
+2026-01-07 18:32:40,618 - INFO - parser.py:158 - Translation started on ONNX model savor_v1
+2026-01-07 18:32:40,673 - INFO - parser.py:193 - Restored ONNX model savor_v1 (completion time: 00:00:00.05)
+2026-01-07 18:32:40,800 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.18)
+2026-01-07 18:32:41,588 - INFO - parser.py:366 - Start nodes mapped from original model: 'images': 'savor_v1/input_layer1'.
+2026-01-07 18:32:41,588 - INFO - parser.py:367 - End nodes mapped from original model: '/model.23/Concat_4', '/model.23/Concat', '/model.23/proto/cv3/act/Mul'.
+2026-01-07 18:32:41,649 - INFO - parser.py:288 - Translation completed on ONNX model savor_v1 (completion time: 00:00:01.03)
+2026-01-07 18:32:41,650 - WARNING - client_runner.py:1738 - hw_arch parameter not given, using the default hw_arch hailo8.
+If another device is the target, please run again using one of hailo8, hailo8r, hailo8l
+2026-01-07 18:32:42,371 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 18:32:42,371 - INFO - client_runner.py:504 - Loading model script commands to savor_v1 from string
+2026-01-07 18:32:42,377 - INFO - commands.py:4270 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2026-01-07 18:32:42,843 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-07 18:32:43,065 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-07 18:32:43,164 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-07 18:32:43,164 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-07 18:32:43,165 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-07 18:32:45,693 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-07 18:32:45,780 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-07 18:32:46,184 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.40)
+2026-01-07 18:32:46,514 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-07 18:32:47,033 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-07 18:32:47,037 - INFO - stats_collection.py:89 - Using dataset with 33 entries for calibration
+2026-01-07 18:33:09,329 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:22.29)
+2026-01-07 18:33:10,479 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-07 18:33:10,480 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-07 18:33:10,480 - INFO - algorithm_base.py:152 - Starting Matmul Equalization
+2026-01-07 18:33:10,505 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Matmul Equalization is done (completion time is 00:00:00.03)
+2026-01-07 18:33:10,506 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-07 18:33:10,506 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-07 18:33:26,002 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-07 18:33:26,005 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-07 18:33:26,015 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-07 18:33:26,020 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-07 18:33:33,155 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-07 18:33:39,609 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-07 18:34:08,931 - ERROR - hailo_tools_runner.py:582 - Failed to produce compiled graph
+2026-01-07 18:34:08,932 - ERROR - hailo_tools_runner.py:231 - BackendAllocatorException: Compilation failed: No valid partition found
