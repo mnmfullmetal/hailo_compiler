@@ -1,9 +1,238 @@
-[2026-01-07 03:40:35.955] [default] [info] Ran from command: "compile_hef.py"
-[2026-01-07 03:40:35.956] [default] [info] Loading network parameters
-[2026-01-07 03:40:36.082] [default] [info] [1;36mStarting Hailo allocation and compilation flow[0m
-[2026-01-07 03:40:36.101] [default] [info] Model name: savor_v1
-[2026-01-07 03:40:36.128] [default] [info] Building optimization options for network layers...
-[2026-01-07 03:40:39.919] [default] [info] Successfully built optimization options - 3s 790ms
-[2026-01-07 03:40:39.926] [default] [info] [1;41mMapping Failed (allocation time: 3s)[0m
-[2026-01-07 03:40:39.941] [default] [info] Builder fail with status 94: Performance Flow requires automatic resource utilization
-[2026-01-07 03:40:39.941] [default] [info] Performance Flow requires automatic resource utilization
+[2026-01-15 03:49:47.397] [default] [info] Ran from command: "compile_hef.py"
+[2026-01-15 03:49:47.399] [default] [info] Loading network parameters
+[2026-01-15 03:49:47.525] [default] [info] [1;36mStarting Hailo allocation and compilation flow[0m
+[2026-01-15 03:49:47.545] [default] [info] Model name: savor_v1
+[2026-01-15 03:49:47.575] [default] [info] Building optimization options for network layers...
+[2026-01-15 03:49:51.207] [default] [info] Successfully built optimization options - 3s 631ms
+[2026-01-15 03:49:51.218] [default] [info] Trying to compile the network in a single context
+[2026-01-15 03:49:51.218] [default] [info] Trying to solve in single context
+[2026-01-15 03:49:51.234] [default] [info] Single context flow failed: Recoverable single context error
+[2026-01-15 03:49:51.242] [default] [info] Building optimization options for network layers...
+[2026-01-15 03:49:57.113] [default] [info] Successfully built optimization options - 5s 870ms
+[2026-01-15 03:49:57.113] [default] [info] Using Multi-context flow
+[2026-01-15 03:49:57.113] [default] [info] Resources optimization params: max_control_utilization=60%, max_compute_utilization=60%, max_compute_16bit_utilization=60%, max_memory_utilization (weights)=60%, max_input_aligner_utilization=60%, max_apu_utilization=60%
+[2026-01-15 03:49:57.113] [default] [info] [1;36mFinding the best partition to contexts...[0m
+[2026-01-15 03:49:59.451] [default] [info] Iteration failed on: Automri finished with too many resources on context_0
+[2026-01-15 03:49:59.462] [default] [info] Iteration failed on: Automri finished with too many resources on context_0
+[2026-01-15 03:50:00.378] [default] [info] Iteration failed on: Automri finished with too many resources on context_1
+[2026-01-15 03:50:01.007] [default] [info] Iteration failed on: Automri finished with too many resources on context_1
+[2026-01-15 03:50:07.569] [default] [info] Partition iteration #4:
+Unikorn FPS: 60.803
+Fast Unikorn FPS: 81.9916
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 333.338
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 187.342
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 81616, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:50:08.571] [default] [info] Searching for a better partition...
+[2026-01-15 03:50:16.241] [default] [info] Partition iteration #5:
+Unikorn FPS: 60.3813
+Fast Unikorn FPS: 81.9939
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 333.338
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 187.342
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 52083.3, solution depleted.
+Partition failed on: Pro unikorn is below the best. Current: 60.381295, Best: 60.803017
+
+[2026-01-15 03:50:25.899] [default] [info] Partition iteration #6:
+Unikorn FPS: 69.3058
+Fast Unikorn FPS: 100.143
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 333.338
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 312.453
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 52083.3, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:50:26.906] [default] [info] Searching for a better partition...
+[2026-01-15 03:50:35.151] [default] [info] Partition iteration #7:
+Unikorn FPS: 74.742
+Fast Unikorn FPS: 110.103
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 333.338
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 404.105
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 25375.9, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:50:36.153] [default] [info] Searching for a better partition...
+[2026-01-15 03:50:48.908] [default] [info] Partition iteration #11:
+Unikorn FPS: 76.5176
+Fast Unikorn FPS: 112.373
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 360.853
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 404.105
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 11178.8, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:50:49.962] [default] [info] Searching for a better partition...
+[2026-01-15 03:51:00.759] [default] [info] Partition iteration #13:
+Unikorn FPS: 75.8262
+Fast Unikorn FPS: 112.669
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 360.853
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 404.105
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 11178.8, solution depleted.
+Partition failed on: Pro unikorn is below the best. Current: 75.826184, Best: 76.517627
+
+[2026-01-15 03:51:10.595] [default] [info] Partition iteration #19:
+Unikorn FPS: 79.0216
+Fast Unikorn FPS: 115.417
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 397.135
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 404.105
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:51:11.607] [default] [info] Searching for a better partition...
+[2026-01-15 03:51:25.305] [default] [info] Partition iteration #24:
+Unikorn FPS: 85.5037
+Fast Unikorn FPS: 117.876
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 602.137
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 312.453
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:51:26.317] [default] [info] Searching for a better partition...
+[2026-01-15 03:51:36.607] [default] [info] Partition iteration #25:
+Unikorn FPS: 91.6908
+Fast Unikorn FPS: 132.015
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 602.137
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 404.105
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:51:37.609] [default] [info] Searching for a better partition...
+[2026-01-15 03:51:47.059] [default] [info] Partition iteration #26:
+Unikorn FPS: 96.7237
+Fast Unikorn FPS: 147.131
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 602.137
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 556.53
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:51:48.113] [default] [info] Searching for a better partition...
+[2026-01-15 03:51:58.243] [default] [info] Partition iteration #27:
+Unikorn FPS: 97.2752
+Fast Unikorn FPS: 147.526
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 602.137
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 556.53
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:51:59.263] [default] [info] Searching for a better partition...
+[2026-01-15 03:52:09.302] [default] [info] Partition iteration #28:
+Unikorn FPS: 95.4812
+Fast Unikorn FPS: 149.28
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 602.137
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 574.026
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Pro unikorn is below the best. Current: 95.481155, Best: 97.275216
+
+[2026-01-15 03:52:23.571] [default] [info] Partition iteration #29:
+Unikorn FPS: 101.152
+Fast Unikorn FPS: 161.575
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 602.137
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 735.965
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:52:24.577] [default] [info] Searching for a better partition...
+[2026-01-15 03:52:39.602] [default] [info] Partition iteration #31:
+Unikorn FPS: 106.861
+Fast Unikorn FPS: 166.559
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 650.265
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 735.965
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:52:40.606] [default] [info] Searching for a better partition...
+[2026-01-15 03:52:52.945] [default] [info] Partition iteration #33:
+Unikorn FPS: 107.383
+Fast Unikorn FPS: 167.066
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 650.265
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 735.965
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:52:53.948] [default] [info] Searching for a better partition...
+[2026-01-15 03:53:07.428] [default] [info] Partition iteration #37:
+Unikorn FPS: 116.328
+Fast Unikorn FPS: 169.806
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 810.933
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 602.137
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:53:08.473] [default] [info] Searching for a better partition...
+[2026-01-15 03:53:19.532] [default] [info] Partition iteration #39:
+Unikorn FPS: 115.915
+Fast Unikorn FPS: 178.554
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 810.933
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 735.965
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Pro unikorn is below the best. Current: 115.915263, Best: 116.327918
+
+[2026-01-15 03:53:32.213] [default] [info] Partition iteration #40:
+Unikorn FPS: 116.279
+Fast Unikorn FPS: 178.554
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 810.933
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 735.965
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Pro unikorn is below the best. Current: 116.278759, Best: 116.327918
+
+[2026-01-15 03:53:44.375] [default] [info] Partition iteration #43:
+Unikorn FPS: 115.527
+Fast Unikorn FPS: 179.296
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 810.933
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 735.965
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Pro unikorn is below the best. Current: 115.527439, Best: 116.327918
+
+[2026-01-15 03:53:56.974] [default] [info] Partition iteration #46:
+Unikorn FPS: 117.676
+Fast Unikorn FPS: 187.723
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 810.933
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 797.62
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:53:57.984] [default] [info] Searching for a better partition...
+[2026-01-15 03:54:09.572] [default] [info] Partition iteration #47:
+Unikorn FPS: 118.218
+Fast Unikorn FPS: 187.723
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 810.933
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 797.62
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition is Valid
+
+[2026-01-15 03:54:10.581] [default] [info] Searching for a better partition...
+[2026-01-15 03:54:21.693] [default] [info] Partition iteration #49:
+Unikorn FPS: 116.834
+Fast Unikorn FPS: 189.548
+Contexts Info:
+savor_v1_context_0 info - Status: VALID, bottleneck fps: 810.933
+savor_v1_context_1 info - Status: VALID, bottleneck fps: 831.644
+savor_v1_context_2 info - Status: VALID, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Pro unikorn is below the best. Current: 116.833876, Best: 118.217959
+
+[2026-01-15 03:54:26.650] [default] [info] [1;41mMapping Failed (allocation time: 4m 35s)[0m
+[2026-01-15 03:54:26.654] [default] [info] Builder fail with status 66: Failed to reach required FPS on the following layers: 
+Compilation failed with exception: More than one output is not supported for layer matmul1
+
+[2026-01-15 03:54:26.654] [default] [info] Failed to reach required FPS on the following layers: 
+Compilation failed with exception: More than one output is not supported for layer matmul1
+

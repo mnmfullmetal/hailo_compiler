@@ -1,18 +1,49 @@
-[2026-01-07 03:31:12.164] [default] [info] Ran from command: "compile_hef.py"
-[2026-01-07 03:31:12.166] [default] [info] Loading network parameters
-[2026-01-07 03:31:12.287] [default] [info] [1;36mStarting Hailo allocation and compilation flow[0m
-[2026-01-07 03:31:12.308] [default] [info] Model name: savor_v1
-[2026-01-07 03:31:12.342] [default] [info] Building optimization options for network layers...
-[2026-01-07 03:31:15.977] [default] [info] Successfully built optimization options - 3s 635ms
-[2026-01-07 03:31:15.980] [default] [info] Trying to compile the network in a single context
-[2026-01-07 03:31:15.980] [default] [info] Trying to solve in single context
-[2026-01-07 03:31:15.996] [default] [info] Single context flow failed: Recoverable single context error
-[2026-01-07 03:31:16.004] [default] [info] Building optimization options for network layers...
-[2026-01-07 03:31:20.695] [default] [info] Successfully built optimization options - 4s 691ms
-[2026-01-07 03:31:20.723] [default] [info] [1;41mMapping Failed (allocation time: 4s)[0m
-[2026-01-07 03:31:20.724] [default] [info] Builder fail with status 110: No successful assignments: concat22 errors:
-	Agent infeasible
+[2026-01-15 02:11:11.647] [default] [info] Ran from command: "compile_hef.py"
+[2026-01-15 02:11:11.649] [default] [info] Loading network parameters
+[2026-01-15 02:11:11.779] [default] [info] [1;36mStarting Hailo allocation and compilation flow[0m
+[2026-01-15 02:11:11.803] [default] [info] Model name: savor_v1
+[2026-01-15 02:11:11.832] [default] [info] Building optimization options for network layers...
+[2026-01-15 02:11:15.465] [default] [info] Successfully built optimization options - 3s 633ms
+[2026-01-15 02:11:15.467] [default] [info] Trying to compile the network in a single context
+[2026-01-15 02:11:15.467] [default] [info] Trying to solve in single context
+[2026-01-15 02:11:15.481] [default] [info] Single context flow failed: Recoverable single context error
+[2026-01-15 02:11:15.490] [default] [info] Building optimization options for network layers...
+[2026-01-15 02:11:20.375] [default] [info] Successfully built optimization options - 4s 885ms
+[2026-01-15 02:11:20.375] [default] [info] Using Multi-context flow
+[2026-01-15 02:11:20.376] [default] [info] Resources optimization params: max_control_utilization=100%, max_compute_utilization=100%, max_compute_16bit_utilization=100%, max_memory_utilization (weights)=85%, max_input_aligner_utilization=100%, max_apu_utilization=100%
+[2026-01-15 02:11:20.376] [default] [info] [1;36mFinding the best partition to contexts...[0m
+[2026-01-15 02:11:21.695] [default] [info] Iteration failed on: Automri finished with too many resources on context_0
+[2026-01-15 02:11:21.714] [default] [info] Iteration failed on: Automri finished with too many resources on context_0
+[2026-01-15 02:11:51.444] [default] [info] Partition iteration #2:
+Fast Unikorn FPS: 105.227
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 187.342
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
 
-[2026-01-07 03:31:20.724] [default] [info] No successful assignments: concat22 errors:
-	Agent infeasible
+[2026-01-15 02:11:51.444] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 02:12:16.563] [default] [info] Partition iteration #3:
+Fast Unikorn FPS: 105.578
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 187.342
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
 
+[2026-01-15 02:12:16.563] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 02:12:39.507] [default] [info] Partition iteration #4:
+Fast Unikorn FPS: 142.907
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 312.453
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 02:12:39.507] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 02:13:06.896] [default] [info] Partition iteration #5:
+Fast Unikorn FPS: 152.756
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 333.338
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 02:13:06.896] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 02:13:27.186] [default] [info] Interrupted by user, aborting...
