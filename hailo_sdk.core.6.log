@@ -1,18 +1,229 @@
-[2026-01-07 02:18:14.359] [default] [info] Ran from command: "compile_hef.py"
-[2026-01-07 02:18:14.361] [default] [info] Loading network parameters
-[2026-01-07 02:18:14.516] [default] [info] [1;36mStarting Hailo allocation and compilation flow[0m
-[2026-01-07 02:18:14.537] [default] [info] Model name: savor_v1
-[2026-01-07 02:18:14.575] [default] [info] Building optimization options for network layers...
-[2026-01-07 02:18:20.815] [default] [info] Successfully built optimization options - 6s 240ms
-[2026-01-07 02:18:20.818] [default] [info] Trying to compile the network in a single context
-[2026-01-07 02:18:20.818] [default] [info] Trying to solve in single context
-[2026-01-07 02:18:20.835] [default] [info] Single context flow failed: Recoverable single context error
-[2026-01-07 02:18:20.844] [default] [info] Building optimization options for network layers...
-[2026-01-07 02:18:29.311] [default] [info] Successfully built optimization options - 8s 467ms
-[2026-01-07 02:18:29.345] [default] [info] [1;41mMapping Failed (allocation time: 8s)[0m
-[2026-01-07 02:18:29.346] [default] [info] Builder fail with status 110: No successful assignments: concat22 errors:
-	Agent infeasible
+[2026-01-15 01:42:00.355] [default] [info] Ran from command: "compile_hef.py"
+[2026-01-15 01:42:00.358] [default] [info] Loading network parameters
+[2026-01-15 01:42:00.490] [default] [info] [1;36mStarting Hailo allocation and compilation flow[0m
+[2026-01-15 01:42:00.515] [default] [info] Model name: savor_v1
+[2026-01-15 01:42:00.546] [default] [info] Building optimization options for network layers...
+[2026-01-15 01:42:04.259] [default] [info] Successfully built optimization options - 3s 712ms
+[2026-01-15 01:42:04.269] [default] [info] Trying to compile the network in a single context
+[2026-01-15 01:42:04.269] [default] [info] Trying to solve in single context
+[2026-01-15 01:42:04.284] [default] [info] Single context flow failed: Recoverable single context error
+[2026-01-15 01:42:04.293] [default] [info] Building optimization options for network layers...
+[2026-01-15 01:42:09.355] [default] [info] Successfully built optimization options - 5s 61ms
+[2026-01-15 01:42:09.355] [default] [info] Using Multi-context flow
+[2026-01-15 01:42:09.355] [default] [info] Resources optimization params: max_control_utilization=100%, max_compute_utilization=100%, max_compute_16bit_utilization=100%, max_memory_utilization (weights)=85%, max_input_aligner_utilization=100%, max_apu_utilization=100%
+[2026-01-15 01:42:09.355] [default] [info] [1;36mFinding the best partition to contexts...[0m
+[2026-01-15 01:42:10.686] [default] [info] Iteration failed on: Automri finished with too many resources on context_0
+[2026-01-15 01:42:10.705] [default] [info] Iteration failed on: Automri finished with too many resources on context_0
+[2026-01-15 01:42:41.259] [default] [info] Partition iteration #2:
+Fast Unikorn FPS: 105.22
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 187.342
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
 
-[2026-01-07 02:18:29.346] [default] [info] No successful assignments: concat22 errors:
-	Agent infeasible
+[2026-01-15 01:42:41.259] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:43:06.915] [default] [info] Partition iteration #3:
+Fast Unikorn FPS: 105.571
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 187.342
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
 
+[2026-01-15 01:43:06.915] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:43:30.253] [default] [info] Partition iteration #4:
+Fast Unikorn FPS: 142.894
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 312.453
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:43:30.253] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:43:56.214] [default] [info] Partition iteration #5:
+Fast Unikorn FPS: 152.741
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 333.338
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:43:56.214] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:44:20.413] [default] [info] Partition iteration #6:
+Fast Unikorn FPS: 152.741
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 333.338
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:44:20.414] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:44:47.241] [default] [info] Partition iteration #7:
+Fast Unikorn FPS: 159.181
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 360.853
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:44:47.241] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:45:14.972] [default] [info] Partition iteration #8:
+Fast Unikorn FPS: 159.181
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 360.853
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:45:14.972] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:45:42.062] [default] [info] Partition iteration #9:
+Fast Unikorn FPS: 159.547
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 364.437
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter shutdown timeout reached
+
+[2026-01-15 01:45:42.062] [default] [info] Iteration failed on: Splitter shutdown timeout reached
+[2026-01-15 01:46:08.571] [default] [info] Partition iteration #10:
+Fast Unikorn FPS: 162.543
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 378.328
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter shutdown timeout reached
+
+[2026-01-15 01:46:08.571] [default] [info] Iteration failed on: Splitter shutdown timeout reached
+[2026-01-15 01:46:34.647] [default] [info] Partition iteration #11:
+Fast Unikorn FPS: 173.747
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 397.135
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:46:34.647] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:46:57.440] [default] [info] Partition iteration #12:
+Fast Unikorn FPS: 175.693
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 397.135
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:46:57.440] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:47:25.472] [default] [info] Partition iteration #13:
+Fast Unikorn FPS: 177.524
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 404.105
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 2966.17, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:47:25.472] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:47:49.363] [default] [info] Partition iteration #14:
+Fast Unikorn FPS: 172.12
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 407.492
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1924.34, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:47:49.363] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:48:13.597] [default] [info] Partition iteration #15:
+Fast Unikorn FPS: 196.362
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 556.53
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1924.34, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:48:13.597] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:48:17.927] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:48:22.295] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:48:28.892] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:48:37.396] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:48:47.908] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:48:56.768] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:49:04.822] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:49:13.509] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:49:21.923] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:49:26.470] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:49:29.538] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:49:34.461] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:49:39.359] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:49:45.885] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:49:56.203] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:50:04.010] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:50:14.219] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:50:20.823] [default] [info] Iteration failed on: Validator failed on node: concat11 with Agent infeasible
+
+[2026-01-15 01:50:46.033] [default] [info] Partition iteration #34:
+Fast Unikorn FPS: 294.012
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 1288.5
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1480.03, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:50:46.033] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:51:10.828] [default] [info] Partition iteration #35:
+Fast Unikorn FPS: 292.358
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 1288.5
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1480.03, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:51:10.828] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:51:33.778] [default] [info] Partition iteration #36:
+Fast Unikorn FPS: 294.012
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 1288.5
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1480.03, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:51:33.779] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:51:55.262] [default] [info] Partition iteration #37:
+Fast Unikorn FPS: 294.012
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 1288.5
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1480.03, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:51:55.262] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:52:19.837] [default] [info] Partition iteration #38:
+Fast Unikorn FPS: 294.036
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 1288.5
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1480.03, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:52:19.837] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:52:41.709] [default] [info] Partition iteration #39:
+Fast Unikorn FPS: 294.036
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 1288.5
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1480.03, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:52:41.709] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:53:09.986] [default] [info] Partition iteration #40:
+Fast Unikorn FPS: 297.567
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 1302.08
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1480.03, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:53:09.986] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:53:37.144] [default] [info] Partition iteration #41:
+Fast Unikorn FPS: 298.314
+Contexts Info:
+savor_v1_context_0 info - Status: FAILED, bottleneck fps: 1302.08
+savor_v1_context_1 info - Status: NEEDS_VALIDATION, bottleneck fps: 1480.03, solution depleted.
+Partition failed on: Splitter timeout reached
+
+[2026-01-15 01:53:37.144] [default] [info] Iteration failed on: Splitter timeout reached
+[2026-01-15 01:54:01.011] [default] [info] Interrupted by user, aborting...

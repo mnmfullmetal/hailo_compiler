@@ -45,3 +45,49 @@
 2026-01-07 15:56:22,376 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
 2026-01-07 18:32:36,024 - INFO - nvidia_smi_gpu_selector.py:13 - Forcing selection of GPU 0 for WSL2 compatibility
 2026-01-07 18:33:11,307 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-08 16:07:18,811 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-08 16:09:20,479 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-08 16:10:03,037 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-08 16:11:52,065 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-08 16:12:32,171 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-08 16:17:17,281 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-08 16:17:57,845 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-09 00:25:35,313 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 00:26:15,532 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-09 00:50:00,943 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 00:50:37,772 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-09 00:52:30,684 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 00:53:22,228 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-09 01:19:32,722 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 01:20:09,366 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-09 01:25:36,764 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 01:26:12,992 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-09 01:46:16,919 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 01:46:53,097 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-09 01:50:49,633 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 01:55:37,606 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 02:02:08,655 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 02:05:54,002 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 02:06:31,247 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-09 02:09:16,141 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 02:09:50,521 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-09 02:11:10,714 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-09 02:11:45,639 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-15 01:40:44,864 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 01:41:24,722 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-15 02:04:22,498 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 02:09:44,502 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 02:10:30,256 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-15 02:13:34,669 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 02:19:58,331 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 02:23:53,145 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 02:30:50,844 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 02:31:31,941 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-15 03:20:23,311 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 03:21:07,757 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-15 03:58:56,953 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 03:59:35,673 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-15 04:31:37,934 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 04:32:16,132 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op
+2026-01-15 05:08:16,330 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-01-15 05:08:53,599 - INFO - activation_op.py:1813 - activation fitting started for savor_v1/reduce_sum_softmax1/act_op

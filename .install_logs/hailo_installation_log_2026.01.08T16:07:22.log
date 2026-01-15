@@ -1,0 +1,6 @@
+[Error] Requirement python3-tk not found.
+[Error] See full log: /home/myles/hailo_compiler/.install_logs/hailo_installation_log_2026.01.08T16:07:22.log
+[Error] Requirement graphviz not found.
+[Error] See full log: /home/myles/hailo_compiler/.install_logs/hailo_installation_log_2026.01.08T16:07:22.log
+[Warning] It is recommended to have 32 GB of RAM, while this system has only 19 GB.
+[Warning] CUDNN version should be 9 or higher, found ..
